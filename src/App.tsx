@@ -1,8 +1,10 @@
 import MenuItem from "./components/MenuItem"
 import { menuItems } from "./data/db"
+import useOrder from "./hooks/useOrder"
 
 
 export default function App() {
+  const { AddItem } = useOrder()
 
   return (
     <>
@@ -17,6 +19,7 @@ export default function App() {
             <MenuItem
               key={item.id} 
               item = {item}
+              addItem={AddItem}
             />
           ))}
           </div>
