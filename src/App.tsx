@@ -24,8 +24,7 @@ export default function App() {
           ))}
           </div>
         </div>
-        <div>
-          <h2>Consumo</h2>
+        <div className="border border-dashed border-slate-300 rounded-lg space-y-10">
         </div>
       </main>
     </>
