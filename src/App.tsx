@@ -16,7 +16,7 @@ export default function App() {
       </header>
       <main className=" max-w-7xl mx-auto py-20 grid md:grid-cols-2 gap-10">
         <div className="p-5">
-          <h2 className="text-4xl font-black">Menu</h2>
+          <h2 className="text-4xl font-black text-center">Menu</h2>
           <div className="space-y-3 mt-10">
           {menuItems.map(item => (
             <MenuItem
@@ -45,7 +45,7 @@ export default function App() {
             />
           </>
           ) : (
-            <p className="text-center">La orden esta vacía</p>
+            <p className="text-center mt-5 font-black">La orden esta vacía</p>
           )}
         </div>
       </main>
