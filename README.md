@@ -1,54 +1,39 @@
-# React + TypeScript + Vite
+# � Tip Calculator - React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una aplicación calculadora de propinas construida con React que permite determinar fácilmente el monto de propina basado en el total de la cuenta, porcentaje deseado y número de personas.
 
-Currently, two official plugins are available:
+![# � Tip Calculator - React
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Una aplicación calculadora de propinas construida con React que permite determinar fácilmente el monto de propina basado en el total de la cuenta, porcentaje deseado y número de personas.
 
-## Expanding the ESLint configuration
+# � Tip Calculator - React
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Una aplicación calculadora de propinas construida con React que permite determinar fácilmente el monto de propina basado en el total de la cuenta, porcentaje deseado y número de personas.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+![![image](https://github.com/user-attachments/assets/94f9947f-06ae-46eb-b030-b807c82cd93f)]
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## ✨ Características
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- Calcula propinas instantáneamente
+- Permite seleccionar porcentajes personalizados
+- Divide la cuenta entre múltiples personas
+- Interfaz intuitiva y responsive
+- Visualización clara de resultados (propina por persona/total por persona)
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 🛠 Tecnologías utilizadas
+
+### Frontend
+- **React** - Biblioteca principal para la construcción de la UI
+- **Vite** - Entorno de desarrollo y build tool
+- **CSS Modules** - Para estilos componentizados (Tailwind CSS)
+- **React Hooks** (useState, useEffect) - Manejo del estado del componente
+
+## 🏗️ Estructura del proyecto 
+![image](https://github.com/user-attachments/assets/955b19ea-0e0a-4232-8e24-4d6af5814e46)
+
+[![Demo en Vivo]((https://admirable-gecko-34eb45.netlify.app/)
+
+
+
+
+
